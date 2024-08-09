@@ -256,15 +256,23 @@ void inserePosicao(node *LISTA)
 
     printf("Digite a pocicao a ser incluida: ");
     scanf("%d", &posicao);
-    printf("Insira na posicao \"%d\" o numero a ser armazenado: ", posicao);
-    scanf("%d", &novo->num);
-
     posicao = (posicao - 1);
+
     if((tamanhoLista(1, LISTA) <  posicao) || (posicao == -1) || ((vazia(LISTA)) && (posicao > 0)))
     {
         printf("Posicao invalida!\n");
         return;
     }
+
+    printf("Insira na posicao \"%d\" o numero a ser armazenado: ", posicao);
+    scanf("%d", &novo->num);
+
+//    posicao = (posicao - 1);
+//    if((tamanhoLista(1, LISTA) <  posicao) || (posicao == -1) || ((vazia(LISTA)) && (posicao > 0)))
+//    {
+//        printf("Posicao invalida!\n");
+//        return;
+//    }
 
     node *posicaoAnterior;
     node *tmp = LISTA->prox;
