@@ -1,0 +1,30 @@
+﻿01 - exemplos simples com ponteiros locais.
+
+02 - exemplo com duas pessoas para uma estrutura, imprimindo o tamanho da estrutura.
+
+03 - exemplo lista encadeada funcional, porem o exemplo é com um ponterio para ponteiro.
+
+04 - exemplo lista encadeada funcional mais simples somente adcionando tres valores.
+
+05 - ATÉ AULA 03.
+
+06 - ATÉ AULA 04.
+
+07 - exemplo bem bobinho de RTOS.
+
+08 - exemplo com retirada de ultimo item da lista, ainda não consegue retirar todos os elementos sempre sobra o primeiro.
+
+09 - exemplo retirando todos os elementos.
+
+10 - exemplo com inclusão de dois números e uma letra
+
+11 - otimizacao no remove fim
+
+12 - função que inclui um nó em uma determinada posição da lista.
+
+13 - função que inclui um nó em uma determinada posição da lista corrigindo um problema que nao deixava incluir um node na posição "0".
+
+14 - função que inclui um nó em uma determinada posição da lista corrigindo um problema que nao deixava incluir um node na ultima posição; incluído uma opcao para mostrar o numero de elementos.
+
+15 - Corrige o problema de incluir elemento na primeira posição ter que digitar "0", agora ao digitar "0" é considerado posição invalida e para incluir um elemento na primeira posição tem que ser digitado "1".
+
